@@ -1,6 +1,8 @@
 @media (max-width: 600px) {
 
-    .home-left, .home-right, .home-container01 {
+    .home-left,
+    .home-right,
+    .home-container01 {
         display: none;
     }
 
@@ -10,33 +12,33 @@
         margin: 0;
     }
 
-    .home-container03{
+    .home-container03 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
     }
 
-    .home-hero1{
+    .home-hero1 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-       justify-content: center;
+        justify-content: center;
     }
 
-    .home-info{
-        order:(1);
+    .home-info {
+        order: (1);
     }
 
-    .home-text12{
+    .home-text12 {
         order: 2;
     }
 
-    .home-text16 .Heading-1{
+    .home-text16 .Heading-1 {
         order: 3;
     }
 
-    .home-container04{
+    .home-container04 {
         order: 4;
     }
 
@@ -44,7 +46,7 @@
         order: 5;
     }
 
-    .home-image5{
+    .home-image5 {
         order: 6;
     }
 
@@ -52,7 +54,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        
+
     }
 
     .category-card-category-card {
@@ -63,42 +65,54 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-       
+
     }
 
-    .home-left4{
+    .home-left4 {
         display: flex;
         align-items: center;
-       
+
     }
-    .home-content{
+
+    .home-content {
         margin-top: 4em;
         margin-bottom: 1em;
     }
 
-    .home-btn.button{
-       margin-bottom: 2em;
+    .home-btn.button {
+        margin-bottom: 2em;
     }
 
-    .home-text30{
-        white-space: nowrap ;
+    .home-text30 {
+        white-space: nowrap;
         margin-right: 10em;
     }
 
-    .home-image6{
+    .home-image6 {
         width: 100%;
     }
+
     
-    .home-container08{
+
+    .home-container08{ 
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content:space-evenly;
+        flex: 1;
        
     }
+
+    .blog-post-card-blog-post-card.blog-post-card-root-class-name{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-grow: 1;
+    }
+
+  
 
     .blog-post-card-image{
         width: 100%;
     }
-  
 }
