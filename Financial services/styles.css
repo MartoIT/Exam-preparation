@@ -1,0 +1,58 @@
+body {
+    margin: 1.5em;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40em;
+
+}
+.blue {
+    color: #327DC4;
+}
+
+.header-h1,
+.header-p {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+
+.card {
+    width: 20%;
+    background: #819DAF;
+    border-radius: 12px;
+}
+
+img {
+    border-radius: 12px;
+}
+
+.description {
+    background: #819DAF;
+    margin-left: 1em;
+    font-size: 1.3em;
+}
+
+.read {
+    border-radius: 15px;
+    background: #327DC4;
+    color: white;
+    border: 1px solid #3255C4;
+    padding: 5px 22px;
+    box-shadow: 0 5px 15px #B3BCD1;
+    margin: 1em;
+}
