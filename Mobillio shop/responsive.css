@@ -1,0 +1,104 @@
+@media (max-width: 600px) {
+
+    .home-left, .home-right, .home-container01 {
+        display: none;
+    }
+
+    .navbar-logo-title {
+        justify-content: start;
+        padding: 0;
+        margin: 0;
+    }
+
+    .home-container03{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .home-hero1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .home-info{
+        order:(1);
+    }
+
+    .home-text12{
+        order: 2;
+    }
+
+    .home-text16 .Heading-1{
+        order: 3;
+    }
+
+    .home-container04{
+        order: 4;
+    }
+
+    .home-btn-group {
+        order: 5;
+    }
+
+    .home-image5{
+        order: 6;
+    }
+
+    .home-cards-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .category-card-category-card {
+        width: 40%;
+    }
+
+    .home-full-width-banner.section-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+    }
+
+    .home-left4{
+        display: flex;
+        align-items: center;
+       
+    }
+    .home-content{
+        margin-top: 4em;
+        margin-bottom: 1em;
+    }
+
+    .home-btn.button{
+       margin-bottom: 2em;
+    }
+
+    .home-text30{
+        white-space: nowrap ;
+        margin-right: 10em;
+    }
+
+    .home-image6{
+        width: 100%;
+    }
+    
+    .home-container08{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+       
+    }
+
+    .blog-post-card-image{
+        width: 100%;
+    }
+  
+}
