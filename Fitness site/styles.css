@@ -1,0 +1,98 @@
+
+.stiky-band-header{
+    background: #D01919;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.phone, .map, .socials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.phone{
+    padding-left: 3em;
+    gap: 1.3em;
+}
+.map {
+    gap: 1em;
+}
+.socials{
+    gap: 0.5em;
+    padding-right: 3em;
+}
+
+.tel, .map-place {
+    order: 2;
+}
+.tel-svj, .map-pont{
+    order: 1;
+}
+svg{
+    fill: white;
+}
+.header-nav{
+    display: flex;
+    justify-content: end;
+    padding-right: 2em;
+}
+.header-nav-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 0.9em;
+    gap: 2em;
+    color: white;
+    list-style-type: none;
+    justify-content:left;
+}
+.container{
+    
+    background: url('./resources/image/fitness-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 35% top 25%;
+   
+}
+
+.get-started-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.get-started-section-p, .get-started-section-h1{
+    color: white;
+}
+.get-started-section-h1 {
+    font-size: 3em;
+    letter-spacing: 0.3em
+}
+.get-started-section-p{
+   line-height: 1.5em;
+    width: 25em;
+    
+}
+
+.get-started-section-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started-section-btn{ 
+    background: #D01919;
+    color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    margin-bottom: 5em;
+    border-radius: 8px;
+}
