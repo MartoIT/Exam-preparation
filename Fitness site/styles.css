@@ -96,3 +96,33 @@ svg{
     margin-bottom: 5em;
     border-radius: 8px;
 }
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 33%;
+    gap: 12em;
+    justify-content: center;
+   
+}
+
+.card-our-suggestions {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 20em;
+   
+}
+
+img {
+    width: 100%;
+}
