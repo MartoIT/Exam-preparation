@@ -1,0 +1,77 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.5;
+}
+
+.conatainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 2em;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: #1881B6;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   margin-left: 2.5em;
+}
+.title {
+    color: white;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+    
+}
+.raccon-journal{
+    margin-top: 2.5em;
+    margin-bottom: 0;
+    height: 10%;
+}
+.main-article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.description{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2em;
+}
+button{
+    width: 10em;
+    padding: 0.3em;
+    border-radius: 6px;
+}
+
+.img-section {
+   display: flex;
+  margin: 1.8em;
+
+}
+
+.main-img {
+    width: 100%;
+}
+
+.contact{
+    background: #B6416D;
+    color: white;
+    border: 1px solid black;
+}
+
+.learn-more{
+    background: #1881B6;
+    color: black;
+    border: 1px solid black;
+}
