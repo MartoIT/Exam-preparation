@@ -1,5 +1,4 @@
-
-.stiky-band-header{
+.stiky-band-header {
     background: #D01919;
     color: white;
     display: flex;
@@ -7,39 +6,53 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-
-.phone, .map, .socials{
+.header{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.phone,
+.map,
+.socials {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.phone{
+
+.phone {
     padding-left: 3em;
     gap: 1.3em;
 }
+
 .map {
     gap: 1em;
 }
-.socials{
+
+.socials {
     gap: 0.5em;
     padding-right: 3em;
 }
 
-.tel, .map-place {
+.tel,
+.map-place {
     order: 2;
 }
-.tel-svj, .map-pont{
+
+.tel-svj,
+.map-pont {
     order: 1;
 }
-svg{
+
+svg {
     fill: white;
 }
-.header-nav{
+
+.header-nav {
     display: flex;
     justify-content: end;
     padding-right: 2em;
 }
-.header-nav-ul{
+
+.header-nav-ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -47,15 +60,20 @@ svg{
     gap: 2em;
     color: white;
     list-style-type: none;
-    justify-content:left;
+    justify-content: left;
 }
-.container{
-    
+ .main {
+    display: flex;
+    flex-direction: column;
+ }
+.container {
+    margin: 2em;
     background: url('./resources/image/fitness-main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right 35% top 25%;
-   
+    margin-top: 0;
+
 }
 
 .get-started-section {
@@ -67,26 +85,29 @@ svg{
 
 }
 
-.get-started-section-p, .get-started-section-h1{
+.get-started-section-p,
+.get-started-section-h1 {
     color: white;
 }
+
 .get-started-section-h1 {
     font-size: 3em;
     letter-spacing: 0.3em
 }
-.get-started-section-p{
-   line-height: 1.5em;
+
+.get-started-section-p {
+    line-height: 1.5em;
     width: 25em;
-    
+
 }
 
-.get-started-section-span{
+.get-started-section-span {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.get-started-section-btn{ 
+.get-started-section-btn {
     background: #D01919;
     color: white;
     padding-left: 1.5em;
@@ -97,32 +118,101 @@ svg{
     border-radius: 8px;
 }
 
-.welcome {
+.welcome, .coaches {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    gap: 2em;
+    
+}
+
+.welcome-header, .coaches-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.welcome-header-underline {
+    background: #D01919;
+    border-radius: 8px;
+    padding: 0.2em;
+    margin: 1em;
 }
 
 .card {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 33%;
-    gap: 12em;
-    justify-content: center;
-   
+    gap: 6em;
+    margin-top: 2em;
+    margin-left: 6em;
+    margin-right: 6em;
+    justify-content: space-evenly;
 }
 
 .card-our-suggestions {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 20em;
-   
+    width: 100%;
+    align-items: center;
 }
 
-img {
+.description-of-suggestion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.h3-suggestion{
+    color: #D43C3C;
+}
+.coaches {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #EFEFEF;
+    margin: 2em;
+}
+
+.coaches-header{
+    display: flex;
+    flex-direction: column;
+}
+.img-welcome {
+    width: 15%;
+}
+
+.img-coaches{
     width: 100%;
+    border-radius: 4px;
+}
+
+.coaches-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.01em;
+}
+
+.h3-coach{
+    padding: 0;
+    margin: 0.8em;
+}
+
+.description-p-coaches{
+    color: #C4CBD4;
+}
+
+footer {
+    display: flex;
+    background: #D01919;
+    width: 100%;
+    color: black;
+    justify-content: center;
+    
+    
 }
