@@ -49,45 +49,46 @@ h6 {
   background-image: url('./resources/images/background.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
-  
+
 
 }
 
-.logo{ 
+.logo {
   float: left;
-  display: flex; 
+  display: flex;
   justify-content: left;
-  width:70px;
+  width: 70px;
   height: 70px;
-  
-  }
 
-  .nav-section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    
-  }
-  .header-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+}
 
-  }
-  .header-nav-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-  }
-  .header-nav-ul-li{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    color: white;
-    gap: 10sem;
-    
-  }
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 
-  
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.header-nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.header-nav-ul-li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+  gap: 10sem;
+
+}
