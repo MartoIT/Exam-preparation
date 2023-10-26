@@ -160,3 +160,47 @@ h6 {
   margin-top: 8em;
   border: 2px solid #CCCCCC;
 }
+
+.sponsors{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1em;
+}
+
+.sponsors-h3{
+  font-size: 3em;
+  color: #BF9A7B;
+}
+.sponsors-p{
+  max-width: 1440px;
+  font-size: 1.3em;
+  color: grey;
+  text-align: center;
+}
+
+.partners{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 6em;
+  gap: 6em;
+}
+
+.partner-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #DDDDDD;
+  border-radius: 50%;
+  width: 200px;
+    height: 200px;
+}
+
+.partenr-img{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 60%;
+}
