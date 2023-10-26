@@ -44,51 +44,76 @@ h6 {
   isolation: isolate;
 }
 
-.header-image {
+ /* Styles of page begin here */
 
+.header-image {
   background-image: url('./resources/images/background.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
-
-
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .logo {
-  float: left;
-  display: flex;
-  justify-content: left;
+  margin-top: 2em;
+  margin-left: 2em;
   width: 70px;
   height: 70px;
-
 }
 
 .nav-section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
-
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
-
+  margin-right: 2.8em;
 }
 
 .header-nav-ul {
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  gap: 3em;
 }
 
 .header-nav-ul-li {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  list-style: none;
   color: white;
-  gap: 10sem;
+ 
 
+}
+
+.what-about{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8em;
+  align-items: start;
+  
+}
+
+
+.bigger-letters{
+  font-size: 60px;
+  line-height: 1em;
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+.section-cletters{
+  width: 40%;
+  word-break: break-word;
+  margin-bottom: 12em;
+}
+
+.letters{
+  font-size: 22px;
+  color: white;
+  text-align: start;
+  
 }
