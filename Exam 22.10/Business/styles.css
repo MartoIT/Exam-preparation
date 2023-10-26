@@ -1,23 +1,93 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.header-image {
+
+  background-image: url('./resources/images/background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+
+}
+
+.logo{ 
+  float: left;
+  display: flex; 
+  justify-content: left;
+  width:70px;
+  height: 70px;
+  
   }
-  * {
-    margin: 0;
+
+  .nav-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
   }
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+  .header-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
   }
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
+  .header-nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
   }
-  input, button, textarea, select {
-    font: inherit;
+  .header-nav-ul-li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    gap: 10sem;
+    
   }
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  #root, #__next {
-    isolation: isolate;
-  }
+
+  
