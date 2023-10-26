@@ -117,3 +117,46 @@ h6 {
   text-align: start;
   
 }
+
+.what-we-do{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4em;
+  gap: 2em;
+  justify-content: center;
+}
+
+.card-our-work{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 40%;
+   gap: 1em;
+  
+}
+
+.description-work{
+  
+  word-break: break-word;
+
+}
+.description-work-p{
+  text-align: left
+}
+
+.more-info{
+  width: 12em;
+  background: transparent;
+  color: #B1835D;
+  border: 2px solid #B0825C;
+}
+
+.description-work-h3{
+  font-size: 2em;
+}
+
+.grey-line{
+  margin-top: 8em;
+  border: 2px solid #CCCCCC;
+}
