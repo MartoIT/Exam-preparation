@@ -1,0 +1,130 @@
+
+
+.main-view {
+    
+    background-image: url('./resources/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+    justify-content: center;
+    gap: 2em;
+    padding: 5em;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 2em;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    gap: 2em
+    
+ 
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    background: #FFFFFF;
+    
+    
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+   
+}
+
+.introduction-and-picture{
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    flex-wrap: nowrap;
+    padding: 2em;
+    
+}
+
+.introduction-picture{
+  padding-top: 2em;
+}
+
+
+.introduction-and-picture2{
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+  
+   
+}
+
+
+
+
+
+img{
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    
+    
+}
+
+.third-person{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+
+.quotes, .quotes2 {
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 6em;
+}
+
+
+.introduction-section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+}  
+
+.introduction-p{
+    width: 80%;
+    
+}
+
+.introduction-p2{
+    text-align: center;
+    word-break: break-word;
+}
+
+.space{
+    margin-top: 4em;
+    margin-bottom: 2em;
+    border: 1px solid #F1F1F1;
+    width: 100%;
+}
