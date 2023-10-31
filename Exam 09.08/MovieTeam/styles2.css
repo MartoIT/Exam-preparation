@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 7em;
+}
+
+.blue {
+    color: #4285F4;
+}
+
+.red {
+    color: #EA4335;
+}
+
+.orange {
+    color: #FBBC05;
+}
+
+.green {
+    color: #34A853;
+}
+
+.title {
+    margin-bottom: 0.5em;
+}
+
+.input {
+    border: grey;
+    border-radius: 26px;
+    box-shadow: 8px 8px 10px 10px #ECECEC;
+    background: #fff;
+    font-size: 3em;
+    padding-bottom: 0.25em;
+    padding-left: 4em;
+    margin-bottom: 1em;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input::placeholder {
+    font-size: 0.4em;
+}
+
+
+
+.plus {
+
+    padding: 1em;
+    border-radius: 50%;
+    background: #F1F3F4;
+    stroke: #F1F3F4;
+    stroke-width: 28px;
+    
+    
+}
+
+.add-shortcut {
+    font-size: 1.2em;
+
+}
+
+.search-icon {
+    position: absolute;
+    padding-top: 1.4em;
+    padding-left: 0.4em;
+    transform: translate(1em);
+    font-size: 1.2em;
+
+}
+
+.mic {
+    position: absolute;
+    padding-top: 0.8em;
+    transform: translate(-7em);
+    width: 40px;
+}
+
+.photo {
+    position: absolute;
+    padding-top: 0.8em;
+    transform: translate(-4em);
+    width: 40px;
+}
