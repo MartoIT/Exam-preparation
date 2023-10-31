@@ -115,10 +115,20 @@ h1 {
 .mail, .google-img {
     font-size: 1.5em;
 }
-.dots {
-   padding-right: 2em;
-   padding-left: 2em;
+
+
+
+.dots-menu {
+    width: 45px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 
-
+.account{
+    border-radius: 50%;
+    font-size: 2em;
+    padding: 0.3em;
+    color: white;
+    background: #5D4037;
+}
