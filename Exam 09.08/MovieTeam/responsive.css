@@ -43,4 +43,27 @@
     .header-title button {
         font-size: 10px;
     }
+    .team-description-wrapper{
+        margin-left: 0;
+    }
+
+    .team-description-wrapper{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        align-items: center;
+        box-sizing: inherit;
+    }
+    .team-description-wrapper>ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1em;
+        
+        
+    }
+
+    .team-description-wrapper>ul>li{
+        width: 33%;
+    }
 }
