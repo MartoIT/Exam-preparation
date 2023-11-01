@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+    header {
+        
+         width: 420px; height: 300px;
+    }
+
+    header>nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header>nav>ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+    }
+
+    header nav ul li {
+        display: block;
+        font-size: 13px;
+       
+    }
+
+    .header-title{
+       
+        margin: 0;
+        padding: 0;
+      
+    }
+    .header-title h1 {
+        font-size: 26px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+      
+      .header-title p {
+        font-size: 15px;
+      }
+      
+    .header-title button {
+        font-size: 10px;
+    }
+}
