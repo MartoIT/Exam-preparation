@@ -120,3 +120,58 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+.articles-section{
+    display: flex;
+    flex-direction: column;
+    background: #D9D9D9;
+    gap: 3em;
+   padding-top: 4em;
+   padding-bottom: 4em;
+}
+
+.art-img{
+    width: 600px;
+    height: 400px;
+}
+
+.card-article{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.article-description{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.card-h5{
+    font-size: 18px;
+    color: #5A5B5D;
+}
+
+.article-h1{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.article-introduction{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.article-p, .created-by{
+    font-size: 18px;
+    color: #5A5B5D;
+}
+
+.articles-a{
+    font-size: 18px;
+   color: black;
+    text-decoration: none; 
+    font-weight: 550;
+}
+
