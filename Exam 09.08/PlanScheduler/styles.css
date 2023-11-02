@@ -163,7 +163,7 @@ body {
     flex-direction: column;
     gap: 0.5em;
 }
-.article-p, .created-by{
+.article-p, .created-by, .pricing-introduction-p{
     font-size: 18px;
     color: #5A5B5D;
 }
@@ -175,3 +175,77 @@ body {
     font-weight: 550;
 }
 
+
+.pricing-plans{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 4em;
+    gap: 2em;
+    
+}
+
+.pricing-introduction{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+  
+}
+
+.pricing-introduction-h1{
+    font-size: 40px;
+}
+
+.card-pricing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: #FF7C4C;
+    align-items: center;
+    width: 33%;
+    gap: 1em;
+    
+}
+.card-pricing.black{
+    
+    background: #000000;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.card-pricing-h3{
+    font-size: 32px;
+}
+
+.card-pricing-h1{
+    font-size: 70px;
+    font-weight: 200;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+.card-price-btn{
+    font-size: 18px;
+    font-weight: 400;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   padding-left: 1.6em;
+   padding-right: 1.6em;
+   margin-bottom: 2em;
+   border-radius: 6px;
+}
+
+.card-price-btn.black{
+   background: black;
+   color: white;
+}
+
+.section-btn{
+    margin-top: 3em;
+}
