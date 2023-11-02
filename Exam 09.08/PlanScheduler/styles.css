@@ -20,7 +20,8 @@ body {
 
 .header-nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+   padding-top: 1em;
 
 }
 
@@ -36,13 +37,18 @@ body {
     background: #FFFFFF;
     border-radius: 6px;
     margin-right: 2em;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
 
 .introduction {
     background-image: url('./images/background.jpg');
-    background-position-y:  99%;
+    background-position-y:  105%;
     background-repeat: no-repeat;
     box-sizing: border-box;
     display: flex;
@@ -88,4 +94,29 @@ body {
     padding: 0.7em;
     margin-bottom: 4em;
     border-radius: 6px;
+}
+
+.indicators{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.card-h1{
+    font-size: 50px;
+    color: #FF7C4C;
+}
+.card-h4{
+    font-size: 24px;
+    font-weight: 400;
 }
