@@ -42,12 +42,12 @@ body {
 
 .introduction {
     background-image: url('./images/background.jpg');
-    aspect-ratio: auto 1 / 1; 
+    background-position-y:  99%;
     background-repeat: no-repeat;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 6em;
     padding-left: 16em;
     
 }
@@ -56,7 +56,7 @@ body {
     
     display: flex;
     max-width: 400px;
-
+    margin-top: 12em;
 }
 
 .introduction-title {
@@ -73,4 +73,19 @@ body {
     font-size: 18px;
     font-weight: 600;
     color: white;
+}
+
+.introduction-btn{
+   
+    margin-bottom: 4em;
+    
+}
+
+.get-started{
+    background: #000;
+    color: white;
+    font-size: 16px;
+    padding: 0.7em;
+    margin-bottom: 4em;
+    border-radius: 6px;
 }
