@@ -1,0 +1,91 @@
+@import url('./reset.css');
+
+
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    
+    flex-direction: column;
+}
+.header-home{
+    display: flex;
+    flex-direction: row;
+    max-width: 1900px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+.header-home-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-left: 6em;
+    padding-top: 0.5em;
+    
+}
+
+
+.header-home-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-right: 6em;
+}
+
+.login{
+    background: transparent;
+    border: 0;
+
+}
+
+.signup{
+    background: #ADE2DF;
+    border: none;
+    border-radius: 6px;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    background :#ADE2DF;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    align-items: center;
+    gap: 1em;
+}
+
+.introduction-h1{
+    font-size: 85px;
+}
+
+.introduction-span{
+    font-size: 30px;
+}
+.introduction-btn{
+    display: flex;
+    gap: 2em;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    padding: 1em;
+    gap: 0.8em;
+    background: #000;
+    color: white;
+    border-radius: 8px;
+}
