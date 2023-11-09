@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    width: 1024px;
+    width: 1324px;
     height: 900px;
 
 }
@@ -18,7 +18,7 @@
     padding-top: 12em;
     padding-left: 6em;
     padding-right: 6em;
-    gap: 2em;
+    gap: 3em;
     box-sizing: border-box;
 
 
@@ -41,9 +41,12 @@
 }
 
 .h1-plan {
-    font-size: 36px;
+    font-size: 28px;
+    font-weight: 600;
     padding: 0;
     margin: 0;
+    margin-top: 0.5em;
+    margin-left: 1.1em;
 }
 
 .monthly-payment {
@@ -51,6 +54,7 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
+    margin-left: 2.2em;
 
 }
 
@@ -59,6 +63,7 @@
 
     align-self: self-end;
     font-size: 16px;
+    font-weight: 300;
 }
 
 .dollar {
@@ -67,8 +72,8 @@
 }
 
 .fee {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 56px;
+    font-weight: 800;
 }
 
 .description {
@@ -76,9 +81,9 @@
     flex-direction: row;
     flex-wrap: wrap;
    width: fit-content;
-   word-break: keep-all;
+   
     gap: 1em;
-    margin-left: 1em;
+    margin-left: 2.2em;
     margin-right: 1em;
 }
 
@@ -115,8 +120,16 @@
     color: white;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
-    padding-left: 1.6em;
-    padding-right: 1.6em;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
     border-radius: 5px;
     border: none;
+    margin-bottom: 2.2em;
+    margin-left: 2.2em;
+}
+
+.onFocus{
+    transform: scale(1.12);
+    
+   
 }
