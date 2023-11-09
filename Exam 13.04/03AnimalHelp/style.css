@@ -1,0 +1,42 @@
+body {
+   font-family: Arial, sans-serif;
+}
+
+
+.container{
+    width: 1324px;
+   border-left: 2px solid red;
+   border-right: 2px solid red;
+}
+
+.home-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid #E7EEF0;
+    justify-content: space-between;
+}
+
+.animal-help{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: center;
+    margin-left: 3em;
+}
+
+.home-header-nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3em;
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1em;
+    font-size: 22px;
+    font-weight: 600;
+}
