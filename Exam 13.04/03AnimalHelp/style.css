@@ -5,15 +5,14 @@ body {
 
 .container{
     width: 1324px;
-   border-left: 2px solid red;
-   border-right: 2px solid red;
+   
 }
 
 .home-header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    border-bottom: 1px solid #E7EEF0;
+    
     justify-content: space-between;
 }
 
@@ -39,4 +38,134 @@ body {
     gap: 1em;
     font-size: 22px;
     font-weight: 600;
+}
+
+.introduction-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    background: #85DCFF;
+    
+    background: linear-gradient(
+        0deg,
+       
+        rgba(133, 220, 255, 1) 98%,
+        rgb(205, 207, 207) 100%
+      );
+}
+
+.give-a-paw{
+    background-image: url('./Images/Promo-MemberPaw.jpg');
+    width: 100%;
+    
+    background-size: 85%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+   
+    
+}
+
+.make-a-difference{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 9em;
+    margin-top: 9em;
+    gap: 1.5em;
+}
+.make-a-difference-slogan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.title-h1{
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+.make-a-difference-slogan{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-left: 7.5em;
+    font-size: 16px;
+   
+}
+
+.donate{
+    background: white;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.join{
+    background: black;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding-left: 2.6em;
+    padding-right: 2.6em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-weight: 600;
+}
+
+.make-a-difference-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2em;
+    margin-left: -2.3em;
+}
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.what-we-do-introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.what-we-do-p1{
+    width: 500px;
+    font-weight: 550;
+    text-align:center;
+}
+
+.what-we-do-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    gap: 7em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-h3{
+    width: 300px;
+    text-align:center;
 }
