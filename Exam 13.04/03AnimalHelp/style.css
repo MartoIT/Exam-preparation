@@ -295,22 +295,22 @@ body {
 .get-in-touch {
     display: flex;
     flex-direction: column;
- 
-   padding-right: 10em;
-   width: 800px;
-   gap: 4em;
+
+    padding-right: 10em;
+    width: 800px;
+    gap: 4em;
 }
 
 
-.get-in-touch-h1{
+.get-in-touch-h1 {
     font-size: 34px;
 }
 
-.get-in-touch-p{
+.get-in-touch-p {
     font-size: 20px;
 }
 
-.get-in-touch-form{
+.get-in-touch-form {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -318,7 +318,7 @@ body {
 
 }
 
-input{
+input {
     height: 3.8em;
     width: 20em;
     border-radius: 6px;
@@ -326,7 +326,7 @@ input{
     border: 1px solid #b6b8b9;
 }
 
-.btn-send{
+.btn-send {
     background: black;
     color: white;
     height: 3.5em;
@@ -334,7 +334,7 @@ input{
     border-radius: 6px;
 }
 
-.home-page-footer{
+.home-page-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -343,11 +343,11 @@ input{
 
 }
 
-.socials{
+.socials {
     padding-left: 18em;
 }
 
-.Copyright-span{
+.Copyright-span {
     padding-right: 4em;
     font-weight: 600;
 }
