@@ -4,7 +4,7 @@ body {
 
 
 .container {
-    width: 1324px;
+    width: 1500;
 
 }
 
@@ -216,3 +216,78 @@ body {
     font-weight: 10;
 
 }
+.all-animals-title{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.all-animals-h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+.all-animals-h3 {
+    
+    font-weight: 300;
+}
+.animals-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+    padding-bottom: 2em;
+}
+
+.how-we-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+.how-we-work-h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.how-we-work-section{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 900px;
+    gap: 2em;
+}
+.how-we-work-section-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 900px;
+    border: 0.1px solid rgb(218, 214, 214);
+    border-radius: 8px;
+}
+
+
+.how-we-work-section-h1{
+    background: #85DCFF;
+    width: 100%;
+    
+}
+
+.get-in-touch{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* background-image: url('./Images/Promo-MemberPaw.jpg');
+width: 100%;
+
+background-size: 85%;
+background-repeat: no-repeat;
+box-sizing: border-box; */
+
