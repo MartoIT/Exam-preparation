@@ -106,7 +106,8 @@ body {
     font-weight: 600;
 }
 
-.join, .what-we-do-btn {
+.join,
+.what-we-do-btn {
     background: black;
     color: white;
     border-radius: 6px;
@@ -179,10 +180,10 @@ body {
     flex-wrap: wrap;
     align-items: center;
     padding-top: 3em;
-   padding-bottom: 3em;
+    padding-bottom: 3em;
 }
 
-.we-work-to-h1{
+.we-work-to-h1 {
     font-size: 24px;
     font-weight: 600;
 }
@@ -212,14 +213,15 @@ body {
 }
 
 .what-we-do-btn {
-    
+
     font-weight: 10;
 
 }
-.all-animals-title{
+
+.all-animals-title {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
     padding-top: 2em;
     padding-bottom: 1em;
 }
@@ -228,31 +230,34 @@ body {
     font-size: 35px;
     font-weight: 900;
 }
+
 .all-animals-h3 {
-    
+
     font-weight: 300;
 }
-.animals-img{
+
+.animals-img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    
+
     padding-bottom: 2em;
 }
 
-.how-we-work{
+.how-we-work {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 4em;
 }
 
-.how-we-work-h1{
+.how-we-work-h1 {
     font-size: 28px;
     font-weight: 600;
 }
-.how-we-work-section{
+
+.how-we-work-section {
     display: flex;
     display: flex;
     flex-direction: column;
@@ -261,7 +266,8 @@ body {
     width: 900px;
     gap: 2em;
 }
-.how-we-work-section-section{
+
+.how-we-work-section-section {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -272,22 +278,53 @@ body {
 }
 
 
-.how-we-work-section-h1{
+.how-we-work-section-h1 {
     background: #85DCFF;
     width: 100%;
-    
+
 }
 
-.get-in-touch{
+.contact-us {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 2me;
+
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-left: 2em;
+   padding-right: 2em;
+   width: 800px;
+   gap: 10em;
 }
 
 
-/* background-image: url('./Images/Promo-MemberPaw.jpg');
-width: 100%;
 
-background-size: 85%;
-background-repeat: no-repeat;
-box-sizing: border-box; */
+.get-in-touch-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   
+   gap: 2em;
 
+}
+
+input{
+    height: 2.5em;
+    width: 14em;
+    border-radius: 6px;
+    border: 1px solid #b6b8b9;
+}
+
+.btn-send{
+    background: black;
+    color: white;
+    height: 3em;
+    width: 10em;
+    border-radius: 6px;
+}
