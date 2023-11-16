@@ -288,43 +288,66 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    padding-bottom: 2me;
-
+    justify-content: space-between;
+    gap: 2em;
 }
 
 .get-in-touch {
     display: flex;
     flex-direction: column;
-    align-items: center;
-   padding-left: 2em;
-   padding-right: 2em;
+ 
+   padding-right: 10em;
    width: 800px;
-   gap: 10em;
+   gap: 4em;
 }
 
 
+.get-in-touch-h1{
+    font-size: 34px;
+}
+
+.get-in-touch-p{
+    font-size: 20px;
+}
 
 .get-in-touch-form{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-   
-   gap: 2em;
+    gap: 2em;
 
 }
 
 input{
-    height: 2.5em;
-    width: 14em;
+    height: 3.8em;
+    width: 20em;
     border-radius: 6px;
+    padding-left: 1em;
     border: 1px solid #b6b8b9;
 }
 
 .btn-send{
     background: black;
     color: white;
-    height: 3em;
-    width: 10em;
+    height: 3.5em;
+    width: 14em;
     border-radius: 6px;
+}
+
+.home-page-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 2em;
+
+}
+
+.socials{
+    padding-left: 18em;
+}
+
+.Copyright-span{
+    padding-right: 4em;
+    font-weight: 600;
 }
