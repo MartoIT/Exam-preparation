@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 1500;
+    border: 2px solid gray;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.section-nav-band{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 50em;
+}
+
+.creative-logo{
+    
+    background-image: url("./images/creative-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    
+    margin-left: 5em;
+}
+
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+    margin-right: 5em;
+}
