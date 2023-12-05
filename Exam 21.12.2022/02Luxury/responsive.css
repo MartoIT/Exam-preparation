@@ -114,6 +114,10 @@
  .magazine-title span{
    font-size: 10px;
   }
+
+  .magazine article #magazine-img{
+    transform: translateX(15%);
+  }
   .magazine-title a {
    display: none;
   }
@@ -121,26 +125,53 @@
   .magazine article{
       display: flex;
       flex-direction: column;
+      width: 100%;
       align-items: center;
       
   }
-  .magazine article img{
-   
-  }
+ 
+  .magazine .magazine-info{
+    margin: 70px;
+}
 
-  .magazine-info{
+
+main .magazine article {
    display: flex;
    flex-direction: column;
    flex-wrap: nowrap;
-      margin-left: 0;
+     
+  }
+  main .magazine article .magazine-info  {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .magazine article .magazine-info p {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 2em;
+  }
+  .magazine-info h2 {
+    font-size: 18px;
+    margin-left: 8em;
   }
 
- .magazine-info{
+  .magazine .magazine-info img{
+    width: 100%;
+    height: 150px;
+    margin-left: 80px;
+  }
 
- }
-
-  .magazine-info img {
-   width: 200px;
-   height: 400px;
- }
+  .magazine-info h3 {
+    font-size: 16px;
+    margin-bottom: 2em;
+  }
+  main .magazine article .magazine-info button {
+    margin-left: 7em;
+    font-size: 10px;
+  }
+  
+ 
 }
