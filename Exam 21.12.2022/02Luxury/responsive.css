@@ -39,6 +39,46 @@
       display: none;
       
     }
+
+    .gallery{
+      flex-direction: column;
+      align-items: center;
+    }
     
+    .gallery>article>img {
+      width: 180px;
+      
+      
+    }
+    .gallery article div{
+       display: none;
+    }
+    main .blog h4 {
+      font-size: 26px;
+    }
+
+
+    main .blog span{
+      display: none;
+    }
+
+    main .blog a{
+      display: none;
+    } 
+    .blog article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #about-blog {
+      background: white;
+      
+    }
+   
+    main .blog img{
+      display: none;
+      
+    } 
 
 }
