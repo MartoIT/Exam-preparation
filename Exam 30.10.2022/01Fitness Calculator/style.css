@@ -10,18 +10,98 @@
     flex-wrap: nowrap;
     
 }
+
 .img-run{
 
    border-top-left-radius: 12px;
    border-bottom-left-radius: 12px;
+   box-shadow: 10px 5px 5px gray;
 }
 .calculator{
     background: rgb(246, 247, 248);
     width: 400px;
+    height: 500px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: 10px 5px 5px grey;
 }
-.gender {
-    float: left;
-    overflow: hidden;
+
+.calculator-btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   gap: 3em;
+   margin-top: 1em;
+}
+
+.btn-us{
+    border-radius: 8px;
+    background-color: rgb(134, 216, 98);
+}
+
+.btn-standart{
+    border-radius: 8px;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.gender-and-years{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.g-y{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2em;
+  
+}
+
+.select-opt{
+    padding-left: 1em;
+    padding-right: 1.5em;
+}
+
+.Weight, .Height{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.Weight{
+    padding-bottom: 0;
+}
+.Height{
+    padding-top: 0;
+}
+.gender-and-years{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.feet-and-inches{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1em;
+    height: 1.2em;
+    padding-bottom: 2em;
+}
+
+.btn-final{
+    background: rgb(5, 162, 211);
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
 }
