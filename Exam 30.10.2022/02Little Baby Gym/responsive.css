@@ -19,7 +19,27 @@
     }
 
     .entry-header {
-       
+        background:
+      url("./images/header-image.jpg") center center;
 
+    }
+
+    .button ,.button-primary{
+      
+        width: 10em;
+    }
+
+    .site-logos-container{
+        display: grid;
+        grid-template-columns: 150px 150px ;
+        grid-template-rows: 180px auto 180px; 
+        column-gap: 40px;
+        align-items: center;
+       padding-left: 8em;
+    }
+    .site-logo span{
+        font-size: 24px;
+        text-align: center;
+        padding-left: 2em;
     }
 }
