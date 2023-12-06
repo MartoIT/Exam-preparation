@@ -1,0 +1,27 @@
+.container{
+    width: 1500px;
+    border: 1px solid gray;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.img-run{
+
+   border-top-left-radius: 12px;
+   border-bottom-left-radius: 12px;
+}
+.calculator{
+    background: rgb(246, 247, 248);
+    width: 400px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.gender {
+    float: left;
+    overflow: hidden;
+}
