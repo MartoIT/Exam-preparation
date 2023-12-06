@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+    body {
+        width: 600px;
+        max-width: 100%;
+        
+    }
+    .site-header-logo {
+       
+        font-size: 30px;
+        font-weight: 400;
+        
+      }
+    .site-navigation{
+        display: none;
+    }
+
+    .site-main{
+        margin: 0;
+    }
+
+    .entry-header {
+       
+
+    }
+}
