@@ -42,4 +42,78 @@
         text-align: center;
         padding-left: 2em;
     }
+    .site-information {
+        display: flex;
+        justify-content: center;
+    }
+    .site-information-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .entry-title{
+        text-align: center;
+    }
+
+    .entry-description{
+        width: 400px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .button.button-primary{
+        width: 7em;
+    }
+    .site-information-image{
+        display: none;
+    }
+
+    .site-form{
+        margin-top: 0;
+      
+    }
+
+    .entry-title{
+        font-size: 9px;
+    }
+
+    .site-form form > p {
+        flex-direction: column;
+      }
+      .site-form form p > input {
+        padding-left: 20em;
+      }
+
+      .entry-content .site-form form button{
+        margin-left: 14em;
+        padding-left: 4em;
+       padding-right: 5em;
+      }
+
+      .site-blog-container{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+
+      .site-posts{
+        display: flex;
+        flex-direction: column;
+        padding-left: 7em;
+        padding-right: 7em;
+      }
+     
+      .site-blog-container>h2{
+        font-size: 30px;
+        word-break: break-all;
+        font-weight: 600;
+      }
+
+      .site-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+     
 }
