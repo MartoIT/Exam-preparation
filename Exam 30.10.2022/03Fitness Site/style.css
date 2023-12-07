@@ -62,8 +62,13 @@ font-family: 'PT Sans', sans-serif;
     flex-wrap: nowrap;
     justify-content: space-between;
     font-family: 'PT Serif', serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
-.tel{
+.tel, .adress{
+    display: flex;
+    align-items: center;
+    gap: 1em;
     padding-left: 2em;
 }
 .social{
@@ -126,4 +131,85 @@ font-family: 'PT Sans', sans-serif;
     padding-bottom: 0.2em;
     padding-left: 0.8em;
     padding-right: 0.8em;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1em;
+    padding-bottom: 4em;
+}
+.services-h1{
+    font-size: 28px;
+    padding-top: 1.2em;
+    font-family: 'PT Serif', serif;
+    
+    
+}
+.service-underline{
+    background: rgb(208, 25, 25);
+    width: 3em;
+    height: 0.2em;
+    border: 12px;
+}
+
+.services-card-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 14em;
+    justify-content:space-evenly;
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1em;
+}
+.service-h1{
+    font-size: 18px;
+    color: #D22B27;
+}
+.service-p{
+    width: 300px;
+    color: rgb(88, 86, 86);
+    font-weight: 100;
+    text-align: center;
+}
+
+.Coaches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1em;
+    padding-bottom: 4em;
+    background: rgb(239, 239, 239);
+}
+
+.coach-name{
+    font-size: 18px;
+}
+
+.service-pn{
+    width: 250px;
+    font-size: 14px;
+    color: rgb(156, 154, 154);
+    font-weight: 100;
+    text-align: center;
+}
+
+.home-footer{
+    background:  rgb(208, 25, 25);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'PT Serif', serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
