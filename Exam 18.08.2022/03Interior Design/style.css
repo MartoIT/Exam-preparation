@@ -1,0 +1,144 @@
+/* font-family: 'Abril Fatface', serif;
+font-family: 'Roboto', sans-serif; */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+
+.container {
+    width: 1500px;
+    border: 1px solid gray;
+    margin-left: 5em;
+    margin-top: 4em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.presentation {
+
+    background: url("./image/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    padding-top: 2em;
+    padding-bottom: 16em;
+
+
+}
+
+.inerior {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 16em;
+    height: 16em;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background: transparent;
+    box-shadow: 10px 5px 5px gray;
+    border: 1px solid rgb(177, 173, 173);
+    overflow: auto;
+   
+    margin-left: 8em;
+   
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.inerior-h1 {
+    font-size: 40px;
+    font-family: 'Abril Fatface', serif;
+    padding-top: 0.7em;
+    margin-left: 0.7em;
+    color: rgb(54, 52, 52);
+
+}
+
+.inerior-underline {
+    border: 1.8px solid white;
+    width: 10em;
+    margin-left: 1em;
+    border-radius: 12px;
+}
+
+.inerior-h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 1em;
+    padding-bottom: 1em;
+}
+
+.presentation-info {
+    background: rgb(156, 147, 140);
+    background: linear-gradient(158deg, rgba(156, 147, 140, 1) 1%, rgba(203, 200, 199, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 14em;
+    box-shadow: 10px 5px 5px gray;
+    margin-left: 70em;
+    margin-bottom: 20em;
+
+}
+
+.presentation-p {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 13px;
+
+}
+
+.preconnect-quotes{
+
+    font-size: 60px;
+    color:  rgb(121, 114, 111);
+}
