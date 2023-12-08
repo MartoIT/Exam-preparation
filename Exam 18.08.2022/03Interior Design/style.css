@@ -155,8 +155,9 @@ h6 {
     padding-bottom: 0;
 }
 
+
 .our-services{
-    width: 70%;
+    width: 100%;
     background: rgb(240, 240, 243);
     display: flex;
     flex-direction: column;
@@ -171,13 +172,7 @@ h6 {
     font-size: 40px;
     font-family: 'Abril Fatface', serif;
 }
-/* .our-services-p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-} */
+
 .our-services-p::first-letter{
 
     font-weight: bold;
@@ -189,10 +184,15 @@ h6 {
     font-weight: bold;
 }
 
+.second-part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
 
 .contact{
-    width: 70%;
+    width: 100%;
     background: rgb(240, 240, 243);
     display: flex;
     flex-direction: column;
@@ -242,4 +242,50 @@ button{
     padding-right: 1em;
     margin-left: 1em;
     border: none;
+}
+
+
+
+
+
+
+.number-talk{
+    background: rgb(187, 177, 173);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+    width: 30%;
+    height: 100%;
+    gap: 6.5em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1.7em;
+   
+}
+
+.number{
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+}
+
+.number-card{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    width: 70%;
+}
+
+.sometext{
+    color: black;
 }
