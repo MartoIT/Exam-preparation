@@ -120,25 +120,126 @@ h6 {
     background: rgb(156, 147, 140);
     background: linear-gradient(158deg, rgba(156, 147, 140, 1) 1%, rgba(203, 200, 199, 1) 100%);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    width: 14em;
+    width: 20em;
     box-shadow: 10px 5px 5px gray;
     margin-left: 70em;
-    margin-bottom: 20em;
+    margin-bottom: 16em;
 
 }
 
 .presentation-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 1em;
-    font-size: 13px;
+    font-size: 16px;
+    padding-top: 0;
 
 }
-
+.quotes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: end;
+   
+}
 .preconnect-quotes{
-
-    font-size: 60px;
+    margin-left: 4em;
+    font-weight: 900;
+    font-size: 70px;
     color:  rgb(121, 114, 111);
+    padding-bottom: 0;
+}
+
+.our-services{
+    width: 70%;
+    background: rgb(240, 240, 243);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 6em;
+   
+}
+.our-services-h1{
+    font-size: 40px;
+    font-family: 'Abril Fatface', serif;
+}
+/* .our-services-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+} */
+.our-services-p::first-letter{
+
+    font-weight: bold;
+    
+    font-size: 32px;
+    
+}
+.our-services-span{
+    font-weight: bold;
+}
+
+
+
+.contact{
+    width: 70%;
+    background: rgb(240, 240, 243);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-h1{
+    font-size: 40px;
+    font-family: 'Abril Fatface', serif;
+    margin-left: 1.2em;
+}
+
+.line{
+    border: 2px solid rgb(156, 156, 156);
+    margin-bottom: 2em;
+}
+.phone-and-adres{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+.phone, .names{
+    margin-left: 2.8em;
+}
+form{
+    margin-left: 2.8em;
+    margin-bottom: 3em;
+}
+.input-email{
+    background: rgb(186, 177, 173);
+    color: white;
+    border-radius: 6px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 7em;
+    border: none;
+}
+
+button{
+    background: rgb(103, 120, 77);
+    color: white;
+    border-radius: 6px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    border: none;
 }
