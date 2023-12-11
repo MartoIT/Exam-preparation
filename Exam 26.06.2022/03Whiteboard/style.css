@@ -126,3 +126,40 @@ span{
     font-size: 24px;
     padding-top: 2em;
 }
+
+.hustle-what{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+.tablet{
+    width: 50%;
+}
+.hustle-notes{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 4em;
+    padding-top: 2em;
+}
+.hustle-notes-h1{
+    font-size: 26px;
+}
+
+.hustle-notes-p{
+    font-size: 20px;
+    width: 400px;
+    font-weight: 500;
+}
+
+
+.green-circle{
+ color: rgb(0, 208, 142);
+ font-size: 28px;
+}
+
+.idiea1{
+    font-size: 20px;
+}
