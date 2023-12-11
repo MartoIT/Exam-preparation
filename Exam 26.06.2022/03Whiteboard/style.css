@@ -1,0 +1,98 @@
+/* font-family: 'Abril Fatface', serif;
+font-family: 'PT Sans', sans-serif; */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+body {
+    width: 1500px;
+    border: 1px solid gray;
+    margin-left: 2em;
+    margin-top: 2em;
+
+
+}
+
+.first-section {
+
+    background-image:
+        linear-gradient(to bottom, rgb(73, 73, 72, 0.8), rgba(241, 240, 239, 0)),
+        url("./image/computer-main.jpg");
+   
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    
+    padding-bottom: 500px;
+    padding-right: 200px;
+
+    /* background: url("./image/computer-main.jpg");
+    background-position: center;
+    background-size: 100%;
+    background: rgb(106, 105, 104);
+    background: linear-gradient(176deg, rgba(106, 105, 104, 1) 0%, rgba(241, 240, 239, 1) 100%);
+    background-repeat: no-repeat;
+    overflow: auto; */
+}
+
+/* background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+url('images/background.jpg');
+width: 80%;
+height: 400px;
+background-size: cover;
+color: white;
+padding: 20px; */
+
+
+
+/* 
+color: white;
+width: 100%;
+height: 500px;
+background: url("./image/fitness-main.jpg");
+background-position: center;
+background-size: 100%; */
