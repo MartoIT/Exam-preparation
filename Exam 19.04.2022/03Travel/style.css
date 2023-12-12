@@ -101,8 +101,44 @@ body {
     background: rgb(207, 170, 58);
     background: linear-gradient(233deg, rgba(207, 170, 58, 1) 0%, rgba(198, 162, 52, 1) 100%);
     width: 150px;
-    padding-left: 1em;
+    padding-left: 1.5em;
     border-radius: 4px;
     transform: translateY(-4em);
     margin-left: 4em;
+    padding-bottom: 1.2em;
+    padding-top: 1em;
+}
+
+.article-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    background: #0e0d0d;
+    opacity: 0.8;
+    width: 500px;
+    margin-left: 4em;
+    color: white;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    gap: 1em;
+
+
+}
+.article-section-h1 {
+   font-size: 22px;
+   font-weight: 900;
+}
+.article-section-p {
+    width: 350px;
+}
+
+.article-section-btn{
+    border: 3px solid white;
+    background: transparent;
+    color: rgb(253, 162, 6);
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0.5em;
 }
