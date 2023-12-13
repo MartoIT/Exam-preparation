@@ -128,3 +128,44 @@ body {
     padding-top: 2em;
     padding-bottom: 2em;
 }
+
+.home-our-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background: rgb(53, 52, 52);
+}
+
+.service-cards-holder{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card-service{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+.card-service-svg-holder{
+    background: rgb(86, 219, 177);
+    padding: 0.8em;
+}
+.card-service-h4{
+    color: white;
+}
+.under-line{
+    border: 1px solid white;
+    width: 320px;
+}
+.card-service-p{
+    text-align: center;
+    width: 320px;
+    color: rgb(81, 79, 77);
+}
