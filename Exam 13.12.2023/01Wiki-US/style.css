@@ -45,14 +45,15 @@ h6 {
 }
 
 body {
-    width: 1500px;
+    /* width: 1000px;
     margin-left: 2em;
     margin-top: 2em;
-    border: 1px solid grey;
+    border: 1px solid grey; */
    font-family: "Agbalumo";
 }
 
 .container{
+    width: 1000px;
     margin: 1em;
     border: 1px solid black;
 }
@@ -72,16 +73,23 @@ body {
     border: 1px solid black;
     width: 90%;
 }
+
+.main-info{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+}
 .map-and-info{
     display: flex;
     flex-direction: column;
     border: 2px solid black;
+   
     
 }
 .map{
     background: url("./images/map.webp");
     width: 350px;
-    height: 350px;
+    height: 250px;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -99,4 +107,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.info-aside{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-left: 2em;
+   
+    gap: 2em;
+}
+
+.info-aside-p{
+    font-size: 18px;
+    width: 99%;
+    text-align: left;
 }
