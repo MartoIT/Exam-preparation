@@ -45,10 +45,10 @@ h6 {
 }
 
 body {
-    width: 1500px;
+    /* width: 1500px;
     margin-left: 2em;
     margin-top: 2em;
-    border: 1px solid grey;
+    border: 1px solid grey; */
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -198,4 +198,21 @@ body {
     padding-left: 2em;
     padding-right: 2em;
     border: none;
+}
+
+.home-footer{
+    background: rgb(86, 219, 177);
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.home-footer-p{
+    opacity: 0.5;
+    color: white;
+}
+
+.white-span{
+    color: white;
+    opacity: 1;
 }
