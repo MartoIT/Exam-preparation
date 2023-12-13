@@ -72,3 +72,31 @@ body {
     border: 1px solid black;
     width: 90%;
 }
+.map-and-info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    
+}
+.map{
+    background: url("./images/map.webp");
+    width: 350px;
+    height: 350px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.info-under-map-p{
+    width: 380px;
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 2em;
+}
+.main-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
