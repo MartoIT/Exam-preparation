@@ -171,3 +171,54 @@ body {
    border: 2px solid white;
    margin-bottom: 2em;
 }
+
+.your-stay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.your-stay-card-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+}
+.your-stay-card{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: nowrap;
+    gap: 2em;
+   
+}
+.your-stay-img{
+    display: flex;
+    justify-content: center;
+}
+.card-img{
+    border-radius: 50%;
+    padding: 0.15em;
+    border: 2px solid rgb(81, 87, 116);
+}
+.your-stay-p{
+    width: 200px;
+    text-align: center;
+}
+.your-stay-h1{
+    font-size: 32px;
+    width: 800px;
+    text-align: center;
+}
+.your-stay-title-p{
+    font-size: 22px;
+}
+.your-stay-h1, .your-stay-title-p, .your-stay-p{
+    color: rgb(81, 87, 116);
+}
+
