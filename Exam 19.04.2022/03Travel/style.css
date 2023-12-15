@@ -246,3 +246,10 @@ body {
     color: white;
     background: transparent;
 }
+
+.home-footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
