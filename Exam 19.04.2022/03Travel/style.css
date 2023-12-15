@@ -44,12 +44,7 @@ h6 {
     isolation: isolate;
 }
 
-body {
-    /* width: 1500px;
-    margin-left: 2em;
-    margin-top: 2em;
-    border: 1px solid grey; */
-}
+
 
 .nav-section {
     display: flex;
