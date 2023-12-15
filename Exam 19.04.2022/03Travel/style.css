@@ -222,3 +222,27 @@ body {
     color: rgb(81, 87, 116);
 }
 
+
+.NEWSLETTER-and-SUBSCRIBE{
+    display: flex;
+    flex-direction: row;
+  
+    background: rgb(207, 170, 58);
+    background: linear-gradient(233deg, rgba(207, 170, 58, 1) 0%, rgba(198, 162, 52, 1) 100%);
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.NEWSLETTER{
+    color: white;
+    margin-left: 4em;
+}
+.NEWSLETTER-btn{
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 70em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+}
